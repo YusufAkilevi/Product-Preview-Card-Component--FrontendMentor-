@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [(https://github.com/YusufAkilevi/Product-Preview-Card-Component--FrontendMentor-)](https://your-solution-url.com)
-- Live Site URL: [(https://yusufakilevi.github.io/Product-Preview-Card-Component--FrontendMentor-/)](https://your-live-site-url.com)
+- Solution URL: [(https://github.com/YusufAkilevi/Product-Preview-Card-Component--FrontendMentor-)](https://github.com/YusufAkilevi/Product-Preview-Card-Component--FrontendMentor-)
+- Live Site URL: [(https://yusufakilevi.github.io/Product-Preview-Card-Component--FrontendMentor-/)]((https://yusufakilevi.github.io/Product-Preview-Card-Component--FrontendMentor-/))
 
 ## My process
 
