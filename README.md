@@ -57,8 +57,8 @@ I want to continue to practice building layouts using Flexbox and CSS Grid with 
 
 ## Author
 
-- Github - [@yourusername](https://github.com/YusufAkilevi)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/YusufAkilevi)
+- Github - [@YusufAkilevi](https://github.com/YusufAkilevi)
+- Frontend Mentor - [@YusufAkilevi](https://www.frontendmentor.io/profile/YusufAkilevi)
 
 ## Acknowledgments
 
