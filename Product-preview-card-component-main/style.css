@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-preview-cart {
+  width: 600px;
+  /* height: 450px; */
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.text-box {
+  padding: 32px;
+}
+.product-type,
+.product-description,
+.btn,
+.original-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+.product-name,
+.sale-price {
+  font-family: "Fraunces", sans-serif;
+}
+.product-type {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+.product-name {
+  color: hsl(212, 21%, 14%);
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+.product-description {
+  margin-bottom: 32px;
+  line-height: 1.8;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.sale-price {
+  font-size: 32px;
+  color: hsl(158, 36%, 37%);
+}
+.original-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 9px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.img-box {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+}
+@media (max-width: 375px) {
+  .product-preview-cart {
+    width: 350px;
+    margin: 16px 12px;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+  }
+  .text-box {
+    padding: 24px;
+  }
+  .product-type {
+    margin-bottom: 16px;
+  }
+  .product-name {
+    margin-bottom: 16px;
+  }
+  .product-description {
+    margin-bottom: 20px;
+  }
+  .img-box {
+    overflow: hidden;
+  }
+  .img-box {
+    background-image: url(images/image-product-mobile.jpg);
+    background-size: cover;
+  }
+  .price {
+    margin-bottom: 16px;
+  }
+} ;
